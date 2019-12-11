@@ -60,7 +60,7 @@ public class Mqtt_act extends AppCompatActivity {
     public void Revival(View v)
     {
         String topic = topicStr;
-        String message = "Libro1";
+        String message = "Revival";
         try
         {
             client.publish(topic, message.getBytes(), 0, false);
@@ -74,7 +74,7 @@ public class Mqtt_act extends AppCompatActivity {
     public void Farenheit(View v)
     {
         String topic = topicStr;
-        String message = "Libro2";
+        String message = "Farenheit";
         try
         {
             client.publish(topic, message.getBytes(), 0, false);
@@ -88,7 +88,7 @@ public class Mqtt_act extends AppCompatActivity {
     public void ElAlquimista(View v)
     {
         String topic = topicStr;
-        String message = "Libro3";
+        String message = "ElAlquimista";
         try
         {
             client.publish(topic, message.getBytes(), 0, false);
@@ -102,7 +102,7 @@ public class Mqtt_act extends AppCompatActivity {
     public void ElPoder(View v)
     {
         String topic = topicStr;
-        String message = "Libro4";
+        String message = "ElPoder";
         try
         {
             client.publish(topic, message.getBytes(), 0, false);
@@ -116,7 +116,7 @@ public class Mqtt_act extends AppCompatActivity {
     public void ElDespertar(View v)
     {
         String topic = topicStr;
-        String message = "Libro5";
+        String message = "ElDespertar";
         try
         {
             client.publish(topic, message.getBytes(), 0, false);
